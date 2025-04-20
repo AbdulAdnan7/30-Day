@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #121212;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+  }
+  
+  .dashboard {
+    margin-top: 40px;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    background: #1f1f1f;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  }
+  
+  .clock {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #00e676;
+  }
+  
+  .quote-box {
+    background: #272727;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .quote-box h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  
+  .quote-box p {
+    font-style: italic;
+    margin: 10px 0 0;
+  }
+  
+  .todo-section h2, .game-section h2 {
+    margin-top: 20px;
+  }
+  
+  .todo-input {
+    display: flex;
+    margin: 10px 0;
+  }
+  
+  .todo-input input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 8px;
+  }
+  
+  .todo-input button {
+    background: #00e676;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #000;
+  }
+  
+  #todoList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #todoList li {
+    background: #2a2a2a;
+    margin-bottom: 8px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #todoList button {
+    background: crimson;
+    border: none;
+    padding: 4px 8px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .game-section button {
+    background: #2979ff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  #gameMessage {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
